@@ -23,9 +23,7 @@ namespace StudentRegistration
                 monthBox.Items.Add(i);
             }
 
-            Object selectedYear = yearBox.SelectedItem;
-            Object selectedMonth = monthBox.SelectedItem;
-            Object selectedDay = dayBox.SelectedItem;
+    
         }
 
         private void registerButton_Click(object sender, EventArgs e)
